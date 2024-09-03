@@ -3,15 +3,20 @@ import cv2
 import numpy as np
 import tensorflow as tf
 from datetime import datetime
-from object_detection.utils import label_map_util
-from object_detection.utils import visualization_utils as viz_utils
-from object_detection.builders import model_builder
-from object_detection.utils import config_util
+# from object_detection.utils import label_map_util
+# from object_detection.utils import visualization_utils as viz_utils
+# from object_detection.builders import model_builder
+# from object_detection.utils import config_util
 import easyocr
 import pandas as pd
 import os
 import uuid
 from PIL import Image
+
+from utils import label_map_util
+from utils import visualization_utils as viz_utils
+from builders import model_builder
+from utils import config_util
 
 global df
 df = pd.DataFrame(columns=["Detected Text", "Date", "Time"])
