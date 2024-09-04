@@ -6,6 +6,7 @@ click==8.1.7
 colorama==0.4.6
 dm-tree==0.1.8
 docstring_parser==0.16
+easyocr
 etils==1.9.3
 flatbuffers==24.3.25
 fsspec==2024.6.1
@@ -31,6 +32,7 @@ opencv-python
 opt-einsum==3.3.0
 optree==0.12.1
 packaging==24.1
+pandas
 promise==2.3
 protobuf==4.25.4
 psutil==6.0.0
