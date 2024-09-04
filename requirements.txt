@@ -6,6 +6,7 @@ click==8.1.7
 colorama==0.4.6
 dm-tree==0.1.8
 docstring_parser==0.16
+easyocr==1.7.0
 etils==1.9.3
 flatbuffers==24.3.25
 fsspec==2024.6.1
@@ -26,13 +27,15 @@ mdurl==0.1.2
 ml-dtypes==0.4.0
 namex==0.0.8
 numpy==1.26.4
-object-detection==0.1
+
 opencv-python
 opt-einsum==3.3.0
 optree==0.12.1
 packaging==24.1
+pandas==1.5.3
+Pillow==9.5.0
 promise==2.3
-protobuf==4.25.4
+protobuf==3.20.3
 psutil==6.0.0
 pyarrow==17.0.0
 Pygments==2.18.0
@@ -48,6 +51,7 @@ tensorflow-hub==0.16.1
 
 
 tensorflow-metadata==1.15.0
+tensorflow-object-detection-api==0.1.1
 termcolor==2.4.0
 tf-slim==1.1.0
 tf_keras==2.17.0
